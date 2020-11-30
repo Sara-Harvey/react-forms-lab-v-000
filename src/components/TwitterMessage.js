@@ -16,7 +16,7 @@ class TwitterMessage extends React.Component {
   }
 
   render() {
-    let charsLeft = this.props
+    let charsLeft = this.props.maxChars
     
     return (
       <div>
