@@ -20,7 +20,7 @@ class LoginForm extends React.Component {
     event.preventDefault();
     
     if (!!this.state.username && !!this.state.password) {
-      this.props
+      this.props.handleLogin
     }
   }
 
