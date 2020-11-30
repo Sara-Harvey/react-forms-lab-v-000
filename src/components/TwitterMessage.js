@@ -16,6 +16,8 @@ class TwitterMessage extends React.Component {
   }
 
   render() {
+    let charsLeft
+    
     return (
       <div>
         <strong>Your message:</strong>
